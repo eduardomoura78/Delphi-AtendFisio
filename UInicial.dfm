@@ -13,7 +13,6 @@ object Finicial: TFinicial
   Font.Style = []
   OldCreateOrder = False
   Position = poDesktopCenter
-  OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
@@ -2581,11 +2580,5 @@ object Finicial: TFinicial
     ExplicitTop = 16
     ExplicitWidth = 105
     ExplicitHeight = 105
-  end
-  object Timer1: TTimer
-    Interval = 5000
-    OnTimer = Timer1Timer
-    Left = 248
-    Top = 200
   end
 end
